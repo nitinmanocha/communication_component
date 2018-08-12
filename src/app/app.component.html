@@ -1,0 +1,35 @@
+
+
+<table class="table" >
+<thead> <tr>
+        <th>Item id</th>
+        <th>Item Name</th>
+        <th>Price</th>
+        <th>Stock available</th>
+      </tr></thead>
+      <tr >
+        <td >1</td>
+        <td>{{st1item}}</td>
+        <td>{{st1price}}</td>
+        <td><p style.color = "{{st1 > 20 ? 'green' : 'red'}}">{{st1}} </p></td>
+		<td><child (Event)='update()'></child>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>{{st2item}}</td>
+        <td>{{st2price}}</td>
+        <td><p style.color = "{{st2 > 20 ? 'green' : 'red'}}">{{st2}} </p></td>
+      <td> <child (Event)='update()'></child>
+        </td>
+	  </tr>
+	  <tr >
+        <td>3</td>
+        <td>{{st3item}}</td>
+        <td>{{st3price}}</td>
+        <td><p style.color = "{{st3 > 20 ? 'green' : 'red'}}">{{st3}} </p></td>
+      <td><child (Event)='update()'></child>
+	  </tr>
+	
+	  </table>
+	  
+	  
