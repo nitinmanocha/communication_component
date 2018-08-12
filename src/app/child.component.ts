@@ -17,3 +17,4 @@ export class ChildComponent {
   Event = new EventEmitter(); 
  
   } 
+
